@@ -744,7 +744,7 @@
     <string name="keyguard_password_wrong_pin_code">Неверный PIN-код</string>
     <string name="keyguard_label_text">Для разблокировки нажмите \"Меню\", а затем 0</string>
     <string name="emergency_call_dialog_number_for_display">Только 112</string>
-    <string name="lockscreen_carrier_default">Сеть не найдена</string>
+    <string name="lockscreen_carrier_default">Нет сети</string>
     <string name="lockscreen_screen_locked">Экран заблокирован</string>
     <string name="lockscreen_instructions_when_pattern_enabled">Нажмите \"Меню\", чтобы разблокировать экран или вызвать службу экстренной помощи</string>
     <string name="lockscreen_instructions_when_pattern_disabled">Для разблокировки нажмите \"Меню\"</string>
