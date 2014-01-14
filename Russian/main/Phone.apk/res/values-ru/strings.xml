@@ -836,7 +836,7 @@
     <string name="notification_voicemail_title_count">Новое сообщение голосовой почты (%d)</string>
     <string name="notification_voicemail_text_format">Набор %s</string>
     <string name="notification_voicemail_no_vm_number">Номер голосовой почты неизвестен</string>
-    <string name="notification_network_selection_title">Сеть не найдена</string>
+    <string name="notification_network_selection_title">Нет сети</string>
     <string name="notification_network_selection_text">Выбранная сеть (%s) недоступна</string>
     <string name="notification_action_end_call">Завершить вызов</string>
     <string name="notification_missedCall_call_back">Вызов</string>

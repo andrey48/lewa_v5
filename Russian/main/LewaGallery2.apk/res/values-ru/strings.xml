@@ -157,6 +157,7 @@
     <string name="pref_camera_face_detect_default">on</string>
     <string name="pref_camera_face_detect_entry_off">Выкл.</string>
     <string name="pref_camera_face_detect_entry_on">Вкл.</string>
+    <string name="pref_camera_continue_shut_default">on</string>
     <string name="pref_camera_record_location_title">Информация о местоположении по данным GPS</string>
     <string name="pref_video_record_quality_default">10</string>
     <string name="pref_video_time_lapse_frame_interval_entry_1000">1,0 секунда</string>
@@ -356,7 +357,7 @@
     <string name="pref_settings_photo_sizes">Размер изображения</string>
     <string name="pref_settings_photo_snap_voice">Затвор беззвучно</string>
     <string name="pref_settings_photo_auto_focus">Автофокус</string>
-    <string name="pref_settings_photo_long_power_pressed">Затвор кнопки питания</string>
+    <string name="pref_settings_photo_long_power_pressed">Затвор клавиши питания</string>
     <string name="pref_settings_photo_voice_key_focus">Фокус голосовым ключом</string>
     <string name="pref_settings_photo_focus_notice">Звук фокуса</string>
     <string name="pref_settings_photo_grp_more_title">Еще</string>
@@ -430,6 +431,9 @@
     <string name="curves_channel_red">Красный</string>
     <string name="curves_channel_green">Зеленый</string>
     <string name="curves_channel_blue">Синева</string>
+    <string name="save_edited_picture">Сохранить измененное изображение?</string>
+    <string name="memory_full_failed_save">Нет свободного места. Сохранить не удалось</string>
+    <string name="failed_to_save">Ошибка сохранения</string>
     <string name="dcim_album_path">DCIM/Camera</string>
     <string name="family_album_path">Pictures/family</string>
     <string name="friend_album_path">Pictures/friend</string>

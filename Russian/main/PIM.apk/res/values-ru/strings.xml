@@ -162,7 +162,7 @@
 \u0009\u0009следующим образом:
 
 
-\""<li> <font fgcolor="#ff000000"> <b>Добавить новый контакт</b> </font>\" для создания контакта с нуля. \"</li>\" \"<li>Также можно нажать кнопку меню, а затем выбрать пункт <font fgcolor="#ff000000"> <b>Импорт/Экспорт</b> </font>\" для перехода к следующим шагам. \"</li>"\" 
+\""<li> <font fgcolor="#ff000000"> <b>Добавить новый контакт</b> </font>\" для создания контакта с нуля. \"</li>\" \"<li>Также можно нажать клавишу меню, а затем выбрать пункт <font fgcolor="#ff000000"> <b>Импорт/Экспорт</b> </font>\" для перехода к следующим шагам. \"</li>"\" 
 
 
 
@@ -173,7 +173,7 @@
 \u0009\u0009следующим образом:
 
 
-\""<li> <font fgcolor="#ff000000"> <b>Добавить новый контакт</b> </font>\" для создания контакта с нуля. \"</li>\" \"<li>Также можно нажать кнопку меню, а затем выбрать пункт <font fgcolor="#ff000000"> <b>Импорт/Экспорт</b> </font>\" для перехода к следующим шагам. \"</li>"\" 
+\""<li> <font fgcolor="#ff000000"> <b>Добавить новый контакт</b> </font>\" для создания контакта с нуля. \"</li>\" \"<li>Также можно нажать клавишу меню, а затем выбрать пункт <font fgcolor="#ff000000"> <b>Импорт/Экспорт</b> </font>\" для перехода к следующим шагам. \"</li>"\" 
 
 
 
@@ -187,7 +187,7 @@
 
 
 
-\""<li> <font fgcolor="#ff000000"> <b>Добавить новый контакт</b> </font>\" для создания контакта с нуля. \"</li>\" \"<li>Также можно нажать кнопку меню, а затем выбрать пункт <font fgcolor="#ff000000"> <b>Импорт/Экспорт</b> </font>\" для перехода к следующим шагам. \"</li>"\" 
+\""<li> <font fgcolor="#ff000000"> <b>Добавить новый контакт</b> </font>\" для создания контакта с нуля. \"</li>\" \"<li>Также можно нажать клавишу меню, а затем выбрать пункт <font fgcolor="#ff000000"> <b>Импорт/Экспорт</b> </font>\" для перехода к следующим шагам. \"</li>"\" 
 
 
 "</string>
@@ -198,7 +198,7 @@
 
 
 
-\""<li> <font fgcolor="#ff000000"> <b>Добавить новый контакт</b> </font>\" для создания контакта с нуля. \"</li>\" \"<li>Также можно нажать кнопку меню, а затем выбрать пункт <font fgcolor="#ff000000"> <b>Импорт/Экспорт</b> </font>\" для перехода к следующим шагам. \"</li>"\" 
+\""<li> <font fgcolor="#ff000000"> <b>Добавить новый контакт</b> </font>\" для создания контакта с нуля. \"</li>\" \"<li>Также можно нажать клавишу меню, а затем выбрать пункт <font fgcolor="#ff000000"> <b>Импорт/Экспорт</b> </font>\" для перехода к следующим шагам. \"</li>"\" 
 
 
 
@@ -665,8 +665,11 @@
     <string name="number_too_long">Слишком длинный номер.</string>
     <string name="generic_failure">Общий сбой.</string>
     <string name="send_groupsms_no_number_more">Для нескольких контактов %1$s и %2$s отсутствует допустимый номер телефона.</string>
-    <string name="send_groupsms_no_number_1">Для %1$s отсутствует допустимый номер телефона.</string>
-    <string name="send_groupsms_no_number_2">Для %1$s и %2$s отсутствует допустимый номер телефона.</string>
+    <string name="send_groupsms_no_number_1">Для %1$s отсутствует допустимый номер телефона</string>
+    <string name="send_groupsms_no_number_2">Для %1$s и %2$s отсутствует допустимый номер телефона</string>
+    <string name="send_groupsms_no_email_more">%1$s и %2$s более контактов не имеют допустимого адреса эл.почты</string>
+    <string name="send_groupsms_no_email_1">%1$s не имеет допустимого адреса эл.почты</string>
+    <string name="send_groupsms_no_email_2">%1$s и %2$s не имеют допустимого адреса эл.почты</string>
     <string name="account_type_sim">Учетная запись SIM-карты</string>
     <string name="account_type_usim">Учетная запись USIM-карты</string>
     <string name="account_type_local_phone">Локальная учетная запись телефона</string>
@@ -1365,6 +1368,7 @@
     <string name="dialpad_to_text">вызов</string>
     <string name="call_log_clear_all">Очистить журнал вызова</string>
     <string name="dialpad_key_fast_not_set">Номер телефона не задан</string>
+    <string name="dialer_invalid_number_taost">Нельзя набирать неправильный номер</string>
     <string name="mms_select_contacts_group_count">контакты</string>
     <string name="mms_select_contacts_recent_contacts">последние контакты</string>
     <string name="message_compose_menu_resend_label">Перепослать</string>
@@ -1583,4 +1587,5 @@
     <string name="import_from_sim_choose_account">Импорт контактов с SIM-карты под аккаунтом</string>
     <string name="export_to_sim_choose_account">Экспорт контактов с SIM-карты под аккаунтом</string>
     <string name="sim_has_no_data">Выбранная SIM-карта не имеет контактов</string>
+    <string name="group_member">Члены группы</string>
 </resources>

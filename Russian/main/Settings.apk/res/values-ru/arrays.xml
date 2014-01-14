@@ -344,12 +344,12 @@
     </string-array>
     <string-array name="window_animation_scale_entries">
         <item>Отключено</item>
-        <item>0,5x</item>
-        <item>1,0x</item>
-        <item>1,5x</item>
-        <item>2,0x</item>
-        <item>5,0x</item>
-        <item>10,0x</item>
+        <item>Анимация 0,5x</item>
+        <item>Анимация 1,0x</item>
+        <item>Анимация 1,5x</item>
+        <item>Анимация 2,0x</item>
+        <item>Анимация 5,0x</item>
+        <item>Анимация 10,0x</item>
     </string-array>
     <string-array name="window_animation_scale_values">
         <item>0</item>
@@ -362,12 +362,12 @@
     </string-array>
     <string-array name="transition_animation_scale_entries">
         <item>Отключено</item>
-        <item>0,5x</item>
-        <item>1,0x</item>
-        <item>1,5x</item>
-        <item>2,0x</item>
-        <item>5,0x</item>
-        <item>10,0x</item>
+        <item>Анимация 0,5x</item>
+        <item>Анимация 1,0x</item>
+        <item>Анимация 1,5x</item>
+        <item>Анимация 2,0x</item>
+        <item>Анимация 5,0x</item>
+        <item>Анимация 10,0x</item>
     </string-array>
     <string-array name="transition_animation_scale_values">
         <item>0</item>
@@ -380,12 +380,12 @@
     </string-array>
     <string-array name="animator_duration_scale_entries">
         <item>Отключено</item>
-        <item>0,5x</item>
-        <item>1,0x</item>
-        <item>1,5x</item>
-        <item>2,0x</item>
-        <item>5,0x</item>
-        <item>10,0x</item>
+        <item>Анимация 0,5x</item>
+        <item>Анимация 1,0x</item>
+        <item>Анимация 1,5x</item>
+        <item>Анимация 2,0x</item>
+        <item>Анимация 5,0x</item>
+        <item>Анимация 10,0x</item>
     </string-array>
     <string-array name="animator_duration_scale_values">
         <item>0</item>
@@ -507,6 +507,48 @@
         <item>0</item>
         <item>1</item>
         <item>2</item>
+    </string-array>
+    <string-array name="simguide_datauseage">
+        <item>Мб/мес.</item>
+        <item>Гб/мес.</item>
+    </string-array>
+    <string-array name="led_freq_entries">
+        <item>2 секунды</item>
+        <item>3 секунды</item>
+        <item>4 секунды</item>
+        <item>5 секунд</item>
+        <item>6 секунд</item>
+        <item>7 секунд</item>
+        <item>8 секунд</item>
+        <item>9 секунд</item>
+    </string-array>
+    <string-array name="led_freq_values">
+        <item>2000</item>
+        <item>3000</item>
+        <item>4000</item>
+        <item>5000</item>
+        <item>6000</item>
+        <item>7000</item>
+        <item>8000</item>
+        <item>9000</item>
+    </string-array>
+    <string-array name="led_color_values">
+        <item>blue</item>
+        <item>red</item>
+        <item>yellow</item>
+        <item>green</item>
+        <item>cyan</item>
+        <item>white</item>
+        <item>\#FFAA00AA</item>
+    </string-array>
+    <string-array name="led_color_entries">
+        <item>Синий</item>
+        <item>Красный</item>
+        <item>Желтый</item>
+        <item>Зеленый</item>
+        <item>Голубой</item>
+        <item>Белый</item>
+        <item>Фиолетовый</item>
     </string-array>
     <string-array name="gemini_sim_info_number_display_format_entries">
         <item>Первые 4 цифры</item>
@@ -746,5 +788,23 @@
         <item>5</item>
         <item>6</item>
         <item>7</item>
+    </string-array>
+    <string-array name="alarm_set">
+        <item>Питание будет включено менее, чем через 1 минуту</item>
+        <item>Режим включения установлен на %1$s с текущего момента</item>
+        <item>Включение установлено через %2$s</item>
+        <item>Режим включения установлен на %1$s и %2$s с текущего момента</item>
+        <item>Включение установлено через %3$s</item>
+        <item>Режим включения установлен на %1$s и %3$s с текущего момента</item>
+        <item>Включение установлено через %2$s и %3$s</item>
+        <item>Режим включения установлен на %1$s, %2$s и %3$s с текущего момента</item>
+        <item>Питание будет выключено менее, чем через 1 минуту</item>
+        <item>Режим выключения установлен на %1$s с текущего момента</item>
+        <item>Выключение установлено через %2$s</item>
+        <item>Режим выключения установлен на %1$s и %2$s с текущего момента</item>
+        <item>Выключение установлено через %3$s</item>
+        <item>Режим выключения установлен на %1$s и %3$s с текущего момента</item>
+        <item>Выключение установлено через %2$s и %3$s</item>
+        <item>Режим выключения установлен на %1$s, %2$s, и %3$s с текущего момента</item>
     </string-array>
 </resources>

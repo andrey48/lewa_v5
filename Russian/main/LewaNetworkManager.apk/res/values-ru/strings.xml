@@ -45,6 +45,7 @@
     <string name="pref_data_pack">Лимит трафика</string>
     <string name="pref_data_pack_title">Настроить лимит трафика</string>
     <string name="pref_data_pack_summary">%1$s，всего: %2$s，с %3$s числа</string>
+    <string name="pref_data_pack_summary_unset">%1$s,%2$s，с %3$s числа</string>
     <string name="pref_monthly_usage">Использовано</string>
     <string name="pref_adjust_settings">Автоматическая синхронизация</string>
     <string name="pref_adjust_regularly">Период измерения</string>

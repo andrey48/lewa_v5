@@ -34,6 +34,7 @@
     <string name="message_open_app_fail">Не удалось открыть приложение-_-!</string>
     <string name="noti_install_app_fail">Установка приложения не удалась, вначале рекомендуется удалить старую версию</string>
     <string name="noti_install_app_fail_invalid_apk">Установка не удалась, не получается проанализировать apk</string>
+    <string name="noti_install_failed_container_error">Установка не удалась. Это приложение может быть установлено только на SD-карту</string>
     <string name="noti_install_app_fail_insufficient_storage">Установка не удалась, недостаточно свободного места на SD-карте</string>
     <string name="noti_install_app_fail_no_file">Установка не удалась, отсутствует apk</string>
     <string name="noti_install_app_fail_app_is_top">Не установлено. Нажмите для просмотра</string>

@@ -34,14 +34,28 @@
         <item>CylinderOut</item>
         <item>CarouselLeft</item>
     </string-array>
-    <string-array name="screen_layout">
+    <string-array name="large_screen_layout">
         <item>4 * 4</item>
         <item>4 * 5</item>
         <item>4 * 6</item>
         <item>5 * 5</item>
         <item>5 * 6</item>
     </string-array>
-    <string-array name="screen_layout_value">
+    <string-array name="large_screen_layout_value">
+        <item>4|4</item>
+        <item>4|5</item>
+        <item>4|6</item>
+        <item>5|5</item>
+        <item>5|6</item>
+    </string-array>
+    <string-array name="ex_large_screen_layout">
+        <item>4 * 4</item>
+        <item>4 * 5</item>
+        <item>4 * 6</item>
+        <item>5 * 5</item>
+        <item>5 * 6</item>
+    </string-array>
+    <string-array name="ex_large_screen_layout_value">
         <item>4|4</item>
         <item>4|5</item>
         <item>4|6</item>

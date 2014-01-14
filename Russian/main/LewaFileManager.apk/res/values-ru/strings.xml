@@ -190,6 +190,8 @@
     <string name="confirm_know">OK</string>
     <string name="error_info_cant_send_folder">Невозможно отправить папку</string>
     <string name="fail_to_create_folder">Ошибка создания папки</string>
+    <string name="fail_to_create_folder_invalid_name">Ошибка создания папки, неверное имя</string>
+    <string name="name_too_long">Слишком длинное имя!</string>
     <string name="fail_to_rename">Невозможно переименовать папку или файл</string>
     <string name="file_info_canread">Чтение:</string>
     <string name="file_info_canwrite">Запись:</string>
@@ -341,4 +343,6 @@
     <string name="usbotg_title">USB OTG</string>
     <string name="usbotg_name">USB OTG</string>
     <string name="sdcard_io_error">Ошибка SD-карты</string>
+    <string name="FileListDateFormat">yyyy/MM/dd</string>
+    <string name="file_move_failed">перемещение не удалось</string>
 </resources>
