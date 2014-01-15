@@ -2,6 +2,7 @@
 <Lockscreen version="1" frameRate="30" frameRateBatteryLow="20" screenWidth="720">
 	
 	<Image name="camera_bg" x="0" y="0" w="#screen_width" h="#screen_height" src="camera_bg.png" visibility="false"/>
+	<Image name="camera_bg_native" x="0" y="0" w="#screen_width" h="#screen_height" src="camera_bg_native.png" visibility="false"/>
 	<!--天气-->
 	<VariableBinders>
 		<ContentProviderBinder columns="city,temperature,sort,pmcondition" countName="hasWeather" uri="content://com.lewa.weather" notifyUri="content://com.lewa.weather">
@@ -12,16 +13,16 @@
 		</ContentProviderBinder>
 	</VariableBinders>
 	<VirtualScreen name="virtualscreen" freeze="true">
-		<Var name="sms_unread" expression="#sms_unread_count"/>
-	    <Var name="miss_call" expression="#call_missed_count "/>
-<!-- 	    <Var name="sms_unread" expression="100"/>
-	    <Var name="miss_call" expression="80"/> -->
+		<Var name="sms_unread" expression="#sms_unread_count+#mms_unread_count"/>
+	  <Var name="miss_call" expression="#call_missed_count"/>
+	<!--<Var name="sms_unread" expression="100"/>
+	    <Var name="miss_call" expression="80"/>-->
 		<Wallpaper blur="5" blurMaskGradient="#00000000|#ff000000" coverGradient="#00000000|#00000000|#bb000000"/>
 		<Image x="0" y="0" src="bg_charge.png" visibility="gt(#battery_state,0)*ne(#battery_state,2)*not(#music_control.visibility)"/>
 		<!-- 音乐控件 -->
 		<Var name="music_btn_y" expression="265"/>
 		<MusicControl name="music_control" autoShow="true" visibility="false">
-			<Image name="music_album_cover" x="360" y="640" w="1280" h="1280" align="center" alignV="center" antiAlias="false" blur="5" blurMaskGradient="#00000000|#ff000000" coverGradient="#00000000|#00000000|#bb000000"/>
+			<Image name="music_album_cover" x="360" y="640" w="1280" h="1280" align="center" scaleType="centerCrop" alignV="center" antiAlias="false" blur="5" blurMaskGradient="#00000000|#ff000000" coverGradient="#00000000|#00000000|#bb000000"/>
 			<Text name="music_display" x="#screen_width/2" y="385" align="center" alignV="top" size="28" color="#ffffff" w="400" marqueeSpeed="50" shadow="5|2|3|#4d000000" textExp="@music_control.title"/>
 			<!--上一首按钮-->
 			<Button name="music_prev" x="120" y="#music_btn_y-50" w="100" h="100">
@@ -76,13 +77,16 @@
 			<Var name="time_width" expression="int(#hf_width+#hs_width+#dot_width+#mf_width+#ms_width)"/>
 			<Var name="time_pos_x" expression="(#screen_width-#time_width)/2"/>
 			<Var name="hour" expression="ifelse(eq(#time_format,0),#hour12,#hour24)" />
-			<Text name="h_s" x="#time_pos_x+#hf_width" y="#time_pos_y" align="left" color="#time_color" size="#time_size" shadow="15|5|8|#4d000000" textExp="ifelse(eq(#ampm,1)*eq(#hour,0),12,#hour)" typeface="NeoSans-Light.otf"/>
+			<Var name="lunar_week_width" expression=" ifelse(@chinese_calendar_show,#lunar_calendar_width,#week.text_width)"/>
+			<Var name="week_width" expression="#week.text_width"/>
+			<Var name="week_pos_x" expression="(#screen_width-#week_width)/2"/>
+			<Text name="h_s" x="#time_pos_x+#hf_width" y="#time_pos_y" align="left" color="#time_color" size="#time_size" shadow="15|5|8|#4d000000" textExp="ifelse(eq(#hour,0)*eq(#time_format,0),12,#hour)" typeface="NeoSans-Light.otf"/>
 			<Image name="t_dot" x="#time_pos_x+#hf_width+#hs_width" y="#time_pos_y+160" align="left" alignV="bottom" src="time_dot.png"/>
 			<Text name="m_f" x="#time_pos_x+#hf_width+#hs_width+#dot_width" y="#time_pos_y" align="left" color="#time_color" size="#time_size" shadow="15|5|8|#4d000000" textExp="ifelse(digit(#minute ,2),digit(#minute ,2),0)" typeface="NeoSans-Light.otf"/>
 			<Text name="m_s" x="#time_pos_x+#hf_width+#hs_width+#dot_width+#mf_width" y="#time_pos_y" align="left" color="#time_color" size="#time_size" shadow="15|5|8|#4d000000" textExp="ifelse(digit(#minute ,1),digit(#minute ,1),0)" typeface="NeoSans-Light.otf"/>
 			<DateTime name="mon" x="(#screen_width-#mon_width)/2" y="320" color="#time_color" size="28" shadow="5|2|3|#4d000000" align="left" format="@short_date_format" typeface="Roboto-Light.ttf"/>
-			<DateTime name="lunar_calendar" x="(#screen_width-#lunar_calendar_width)/2" y="320+@week_offsetY*2" color="#time_color" size="28" shadow="5|2|3|#4d000000" align="left" format="@chinese_calendar_format" visibility="@chinese_calendar_show"/>
-			<DateTime name="week" x="#screen_width/2+@week_offsetX" y="320+@week_offsetY" color="#time_color" size="28" shadow="5|2|3|#4d000000" align="center" format="EEEE" typeface="@week_typeface"/>
+			<DateTime name="lunar_calendar" x="(#screen_width-#lunar_calendar_width)/2" y="320+@week_offsetY*2" color="#time_color" size="28" shadow="5|2|3|#4d000000" align="center" format="@chinese_calendar_format" visibility="@chinese_calendar_show"/>
+			<DateTime name="week" x="#week_pos_x" y="320+@week_offsetY" color="#time_color" size="28" shadow="5|2|3|#4d000000" align="ifelse(@chinese_calendar_show,'center','left')" format="EEEE" typeface="@week_typeface"/>
 		</Group>
 		<Var name="degree" expression="replace(@weather_temperature,'℃','')" type="string"/>
 		<!--天气-->
@@ -324,14 +328,14 @@
 					<Text name="bl_show1" x="#screen_width/2" y="#unlocker_pos_centerY+#lock_offsetY-11+#mess_offsetY*0.9+#lock_backY*0.9" align="center" alignV="center" color="#15ff0f" size="54" typeface="NeoSans-Light.otf" format="%d" paras="#battery_level" visibility="#battery_state*ne(#battery_state,2)"/>
 					<Image name="img_normal_call" x="119" y="#unlocker_pos_centerY+#mess_offsetY*0.3+#lock_backY*0.3" align="center" alignV="center" src="unlocker_call.png"/>
 				</Group>
-				<!--sms_unread_count-->
+				<!--sms_unread_count -->
 				<Group name="sms_unread_count">
 					<Group name="miss_mess_normal" x="#mm_x" y="#mm_y" visibility="gt(#sms_unread,0)">
-						<Image x="0" y="0" align="center" alignV="center"  srcExp="ifelse(gt(#sms_unread,99),'msg_hint_bg_new','msg_hint_bg')+'.png'"/>
+						<Image x="0" y="0" align="center" alignV="center"  srcExp="ifelse(gt(#sms_unread,99),'msg_hint_bg','msg_hint_bg_s')+'.png'"/>
 						<Text x="0" y="-3" align="center" alignV="center" color="#ffffff" shadow="1|1|1|#bf000000" size="26" textExp="ifelse(le(#sms_unread,99),#sms_unread,'99+')"/>
 					</Group>
 					<Group name="miss_call_normal" x="#mc_x" y="#mc_y" visibility="gt(#miss_call,0)">
-						<Image x="0" y="0" align="center" alignV="center" srcExp="ifelse(gt(#miss_call,99),'msg_hint_bg_new','msg_hint_bg')+'.png'"/>
+						<Image x="0" y="0" align="center" alignV="center" srcExp="ifelse(gt(#miss_call,99),'msg_hint_bg','msg_hint_bg_s')+'.png'"/>
 						<Text x="0" y="-3" align="center" alignV="center" color="#ffffff" shadow="1|1|1|#bf000000" size="26" textExp="ifelse(le(#miss_call,99),#miss_call,'99+')"/>
 					</Group>
 				</Group>
@@ -413,7 +417,8 @@
 				<VariableCommand name="virtualscreen.freeze" expression="1"/>
 				<VariableCommand name="vs_moveX" expression="0"/>
 				<VariableCommand name="touch_state" expression="1" const="true"/>
-				<Command target="camera_bg.visibility" value="true"/>
+				<Command target="camera_bg.visibility" value="true" condition="eq(#native_camera,0)"/>
+				<Command target="camera_bg_native.visibility" value="true" condition="eq(#native_camera,1)"/>
 			</Trigger>
 			<Trigger action="up">
 				<VariableCommand name="touch_state" expression="0" const="true"/>
@@ -423,6 +428,7 @@
 				<Command target="camera_show_ani.animation" value="play" condition="#camera_show_ani_con"/>
 				<VariableCommand name="virtualscreen.freeze" expression="0" condition="eq(#camera_show_ani_con,0)"/>
 				<Command target="camera_bg.visibility" value="false" condition="eq(#camera_show_ani_con,0)"/>
+				<Command target="camera_bg_native.visibility" value="false" condition="eq(#camera_show_ani_con,0)"/>
 			</Trigger>
 		</Triggers>
 	</Button>
