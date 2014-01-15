@@ -45,9 +45,9 @@
     .local p0, this:Lcom/lewa/PIM/contacts/list/ContactEntryListFragment$3;,"Lcom/lewa/PIM/contacts/list/ContactEntryListFragment.3;"
     const/16 v12, 0x80
 
-    const/16 v11, 0x5a
+    const/16 v11, 0x042f
 
-    const/16 v10, 0x41
+    const/16 v10, 0x0410
 
     const/4 v9, 0x1
 
@@ -254,7 +254,7 @@
 
     aget-char v6, v6, v8
 
-    const/16 v7, 0x61
+    const/16 v7, 0x0430
 
     if-lt v6, v7, :cond_d3
 
@@ -262,7 +262,7 @@
 
     aget-char v6, v6, v8
 
-    const/16 v7, 0x7a
+    const/16 v7, 0x044f
 
     if-gt v6, v7, :cond_d3
 

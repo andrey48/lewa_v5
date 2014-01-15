@@ -54,7 +54,7 @@
 
     .prologue
     .line 22
-    const/16 v0, 0x1c
+    const/16 v0, 0x1e
 
     new-array v0, v0, [Ljava/lang/String;
 
@@ -72,157 +72,169 @@
 
     const/4 v1, 0x2
 
-    const-string v2, "A"
+    const-string v2, "\u0410"
 
     aput-object v2, v0, v1
 
     const/4 v1, 0x3
 
-    const-string v2, "B"
+    const-string v2, "\u0411"
 
     aput-object v2, v0, v1
 
     const/4 v1, 0x4
 
-    const-string v2, "C"
+    const-string v2, "\u0412"
 
     aput-object v2, v0, v1
 
     const/4 v1, 0x5
 
-    const-string v2, "D"
+    const-string v2, "\u0413"
 
     aput-object v2, v0, v1
 
     const/4 v1, 0x6
 
-    const-string v2, "E"
+    const-string v2, "\u0414"
 
     aput-object v2, v0, v1
 
     const/4 v1, 0x7
 
-    const-string v2, "F"
+    const-string v2, "\u0415"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x8
 
-    const-string v2, "G"
+    const-string v2, "\u0416"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x9
 
-    const-string v2, "H"
+    const-string v2, "\u0417"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xa
 
-    const-string v2, "I"
+    const-string v2, "\u0418"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xb
 
-    const-string v2, "J"
+    const-string v2, "\u041A"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xc
 
-    const-string v2, "K"
+    const-string v2, "\u041B"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xd
 
-    const-string v2, "L"
+    const-string v2, "\u041C"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xe
 
-    const-string v2, "M"
+    const-string v2, "\u041D"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xf
 
-    const-string v2, "N"
+    const-string v2, "\u041E"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x10
 
-    const-string v2, "O"
+    const-string v2, "\u041F"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x11
 
-    const-string v2, "P"
+    const-string v2, "\u0420"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x12
 
-    const-string v2, "Q"
+    const-string v2, "\u0421"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x13
 
-    const-string v2, "R"
+    const-string v2, "\u0422"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x14
 
-    const-string v2, "S"
+    const-string v2, "\u0423"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x15
 
-    const-string v2, "T"
+    const-string v2, "\u0424"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x16
 
-    const-string v2, "U"
+    const-string v2, "\u0425"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x17
 
-    const-string v2, "V"
+    const-string v2, "\u0426"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x18
 
-    const-string v2, "W"
+    const-string v2, "\u0427"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x19
 
-    const-string v2, "X"
+    const-string v2, "\u0428"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x1a
 
-    const-string v2, "Y"
+    const-string v2, "\u0429"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x1b
 
-    const-string v2, "Z"
+    const-string v2, "\u042D"
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x1c
+
+    const-string v2, "\u042E"
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x1d
+
+    const-string v2, "\u042F"
 
     aput-object v2, v0, v1
 
