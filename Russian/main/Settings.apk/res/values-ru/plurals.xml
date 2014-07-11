@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="show_dev_countdown">
+        <item quantity="other">Вы в %1$d шагах от статуса разработчика</item>
+        <item quantity="one">Вы в %1$d шаге от статуса разработчика</item>
+    </plurals>
     <plurals name="lockpassword_password_requires_letters">
         <item quantity="other">Пароль должен содержать не менее %d букв</item>
         <item quantity="one">Пароль должен содержать не менее 1 буквы</item>

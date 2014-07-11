@@ -11,4 +11,6 @@
     <string name="wallpaper_title_and_author">%1$s, автор: %2$s</string>
     <string name="live_wallpaper_loading">Загрузка живых обоев...</string>
     <string name="wallpaper_cancel">Отмена</string>
+    <string name="no_external_storage_title">Нет хранилища</string>
+    <string name="no_external_storage">Нет доступного внешнего хранилища</string>
 </resources>

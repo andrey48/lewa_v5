@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<!--Decompiled by BART-R (BurgerZ <az.burgerz@gmail.com)>--><resources>
     <string name="app_name">FM-радио</string>
+
+
+    <string name="delete_station_title">Удаление канала</string>
     <string name="favorite_manager">Список каналов</string>
     <string name="add_to_favorite">Добавить в Избранное</string>
     <string name="add_to_favorite1">Добавить в настроенные каналы</string>
@@ -108,7 +111,6 @@
     <string name="add_favorite_station">Добавить</string>
     <string name="adding_favorite_station">Добавление</string>
     <string name="delete_station_confirm">Удалить канал?</string>
-    <string name="delete_station_title">Удаление канала</string>
     <string name="empty_text">Нажмите кнопку ниже для поиска канала</string>
     <string name="accurate_change_frequency_title">Точное изменение частоты</string>
     <string name="accurate_change_frequency_hint">Введите частоту для прослушивания (МГц)</string>
@@ -118,4 +120,10 @@
     <string name="menu_actionbar_selected_items">%s выбрано</string>
     <string name="menu_multichoice_select_all">Выбрать все</string>
     <string name="menu_multichoice_clear_select">Снять выделение</string>
+    <string name="airplane_mode_on">Режим полета включен, Вы не можете использовать радио</string>
+    <string name="correct">ОК</string>
+    <string name="error">Ошибка</string>
+    <string name="toast_earphone_plug_in">наушники подключены</string>
+    <string name="toast_earphone_plug_out">наушники отсоединены</string>
+    <string name="toast_noantenna_text">Наушники не подключены!</string>
 </resources>

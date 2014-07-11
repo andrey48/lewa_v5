@@ -3,6 +3,8 @@
     <string name="app_name">Меню SIM</string>
     <string name="appI_name">Меню SIM1</string>
     <string name="appII_name">Меню SIM2</string>
+    <string name="appIII_name">Меню SIM3</string>
+    <string name="appIV_name">Меню SIM4</string>
     <string name="lable_not_available">"Приложение не установлено"</string>
     <string name="menu_end_session">Закончить сеанс</string>
     <string name="help">Справка</string>
@@ -65,4 +67,6 @@
     <string name="main_menu_not_initialized">Главное меню не инициализируется</string>
     <string name="lable_busy_on_call">Устройство занято вызовом, пожалуйста, вначале завершите вызов</string>
     <string name="lable_on_flight_mode">Приложение нельзя использовать в режиме полета</string>
+    <string name="lable_sim_not_ready">Меню SIM не готово или не поддерживается</string>
+    <string name="no_sim_card_inserted">Вставьте SIM-карту для запуска Меню SIM</string>
 </resources>

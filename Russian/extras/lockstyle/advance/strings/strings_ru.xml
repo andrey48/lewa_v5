@@ -1,14 +1,14 @@
 <strings>
-    <string name="short_date_format" value="dd MMM" />
+    <string name="short_date_format" value="dd MM EEEE" />
     <string name="long_date_format" value="dd.MM.yyyy" />
-    <string name="slide_down_lock" value="Потяните вниз для разблокировки" />
-    <string name="slide_down_call" value="Вниз для вызова" />
-    <string name="slide_down_mess" value="Вниз для сообщений" />
+     <string name="slide_up_camera" value="Вверх - камера" />
+    <string name="slide_down_lock" value="Вниз - разблокировать" />
+    <string name="slide_down_call" value="Вниз - вызовы" />
+    <string name="slide_down_mess" value="Вниз - сообщения" />
     <string name="air_quality" value="AQI:" />
     <string name="chinese_calendar_show" value="0"/>
-    <string name="chinese_calendar_format" value="NNNN"/>
-    <string name="week_offsetY" value="40"/>
-    <string name="week_offsetX" value="0"/>
+    <string name="week_offsetY" value="0"/>
+    <string name="week_offsetX" value="60"/>
     <string name="week_typeface" value="NeoSans-Light.otf"/>
     <string name="unreadSMS" value=" сообщений"/>
     <string name="missCALL" value=" вызовов"/>

@@ -5,6 +5,7 @@
     </string-array>
     <string-array name="iface_mobile">
         <item>ccmni+</item>
+        <item>cc2mni+</item>
         <item>rmnet+</item>
     </string-array>
     <array name="pref_adjust_interval">

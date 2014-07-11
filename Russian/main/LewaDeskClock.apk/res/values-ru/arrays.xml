@@ -1,5 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="snooze_time">
+        <item>5 минут</item>
+        <item>10 минут(по умолчанию)</item>
+        <item>15 минут</item>
+        <item>20 минут</item>
+        <item>30 минут</item>
+    </string-array>
+    <string-array name="snooze_time_values">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>30</item>
+    </string-array>
     <string-array name="alarm_set">
         <item>Будильник зазвонит менее чем через минуту.</item>
         <item>Будильник зазвонит через %1$s</item>

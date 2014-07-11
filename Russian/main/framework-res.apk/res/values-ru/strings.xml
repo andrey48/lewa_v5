@@ -38,7 +38,7 @@
     <string name="db_wal_sync_mode">FULL</string>
     <string name="config_useragentprofile_url" />
     <string name="config_isoImagePath" />
-    <string name="config_ntpServer">asia.pool.ntp.org</string>
+    <string name="config_ntpServer">ru.pool.ntp.org</string>
     <string name="config_wimaxServiceJarLocation" />
     <string name="config_wimaxNativeLibLocation" />
     <string name="config_wimaxManagerClassname" />
@@ -301,7 +301,7 @@
     <string name="permgrouplab_display">Интерфейс других приложений</string>
     <string name="permgroupdesc_display">Воздействие на интерфейс других приложений</string>
     <string name="permgrouplab_storage">Память</string>
-    <string name="permgroupdesc_storage">Доступ к SD-карте.</string>
+    <string name="permgroupdesc_storage">Доступ к SD-карте</string>
     <string name="permlab_statusBar">Контроль строки состояния</string>
     <string name="permdesc_statusBar">Возможность отключать строку состояния, а также добавлять и удалять системные значки</string>
     <string name="permlab_statusBarService">Замена строки состояния</string>
@@ -1394,5 +1394,9 @@
     <string name="owner_name">Владелец</string>
     <string name="storage_phone">Внутреннее хранилище</string>
     <string name="storage_external_usb">Внешнее USB-хранилище</string>
+    <string name="storage_ic_usb1">Внешнее IC-USB-хранилище1</string>
+    <string name="storage_ic_usb2">Внешнее IC-USB-хранилище2</string>
     <string name="zz_keyguard_accessibility_voice_unlock">Разблокировка голосом</string>
+    <string name="sd_accessing_swtich_user_title">Переключить пользователя?</string>
+    <string name="sd_accessing_swtich_user_message">Все несохраненные данные в текущем аккаунте будут потеряны</string>
 </resources>

@@ -13,6 +13,7 @@
     <string name="download_running">В процессе</string>
     <string name="download_success">Завершено</string>
     <string name="download_error">Не удалось</string>
+    <string name="download_pause">На паузе</string>
     <string name="dialog_title_not_available">Не удалось загрузить</string>
     <string name="dialog_failed_body">Попробовать еще раз загрузить файл позже или удалить его из очереди?</string>
     <string name="dialog_title_queued_body">Файл еще недоступен</string>
@@ -33,6 +34,10 @@
     <string name="select_all">Выбрать все</string>
     <string name="selected_count">Выбран %1$d</string>
     <string name="download_share_dialog">Способ отправки</string>
+    <string name="download_percent">%d%%</string>
+    <string name="dialog_title">Загрузка</string>
+    <string name="paused_dialog_msg">Вы хотите поставить загрузку на паузу?</string>
+    <string name="resume_dialog_msg">Вы хотите возобновить загрузку?</string>
     <string name="download_error_insufficient_memory">Недостаточно места</string>
     <string name="download_error_invalid_descriptor">Недопустимый дескриптор</string>
     <string name="download_error_invalid_ddversion">Неверная версия DD</string>

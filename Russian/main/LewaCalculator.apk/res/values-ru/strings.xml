@@ -38,4 +38,5 @@
     <string name="goback">Назад</string>
     <string name="advance">Расширенный</string>
     <string name="history">История</string>
+    <string name="clear_history_text">Очистить</string>
 </resources>

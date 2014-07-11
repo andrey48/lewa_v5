@@ -100,12 +100,20 @@
     <string name="send_mail_without_subject_confirm">У этого эл.сообщения не указана тема; отправить его без указания темы?</string>
     <string name="no_application_response">Приложение блокировано</string>
     <string name="ask_before_deleting">Подтверждать удаление</string>
+    <string name="extension_choose_provider_title">Выбор провайдера почты</string>
     <string name="not_add_more_recipients">Невозможноодновременно добавить более %1$d получателей</string>
     <string name="message_view_status_sdcard_not_enough">Недостаточно места для сохранения вложения на SD-карте</string>
     <string name="vip_emails_from_accounts_fmt">Эл.письма с %d аккаунтов</string>
     <string name="notification_multiple_new_vip_messages_fmt">%1$d новых сообщений от VIP</string>
     <string name="message_body_too_large">"Невозможно загрузить все содержимое из-за большого размера сообщения"</string>
     <string name="cannot_move_multiple_mailbox_toast">Некоторые эл.письма сейчас в процессе отправки, повторите попытку позже</string>
+    <string name="certificate_request_ssl">Клиентский сертификат должен использовать безопасное соединение</string>
+    <string name="auto_clear_cache_title">Автоматическая очистка кэша</string>
+    <string name="auto_clear_cache_description">Регулярно очищать локальный кэш</string>
+    <string name="edit_quoted_dialog_title">Максимум символов</string>
+    <string name="edit_quoted_not_append_all">Достигнуто максимальное количество символов. Некоторый старый контент будет потерян, продолжить?</string>
+    <string name="message_view_display_attachment_unsupport_toast">Неподдерживемый формат файла</string>
+    <string name="single_message_view_attachment_saved">Приложение сохранено в: %s</string>
     <string name="permission_read_attachment_label">Просмотр пересылаемых файлов</string>
     <string name="permission_read_attachment_desc">Приложение получит доступ к прикрепленным файлам в сообщениях эл.почты</string>
     <string name="permission_access_provider_label">Доступ к данным службы эл.почты</string>
@@ -177,6 +185,12 @@
     <string name="picker_combined_view_fmt">Комбинированный вид (%s)</string>
     <string name="debug_version_fmt">Версия: %s</string>
     <string name="debug_enable_debug_logging_label">Enable extra debug logging?</string>
+    <string name="debug_enable_verbose_logging_label">Enable verbose logging?</string>
+    <string name="debug_enable_performance_logging_label">Enable performance logging?</string>
+    <string name="debug_enable_lifecycle_logging_label">Enable lifecycle logging?</string>
+    <string name="debug_enable_fragment_logging_label">Enable fragment logging?</string>
+    <string name="debug_enable_refresh_logging_label">Enable refresh logging?</string>
+    <string name="debug_enable_serviceproxy_logging_label">Enable service proxy logging?</string>
     <string name="debug_enable_exchange_logging_label">Enable exchange parser logging? (extremely verbose)</string>
     <string name="debug_enable_exchange_file_logging_label">Enable exchange sd card logging?</string>
     <string name="debug_clear_webview_cache">Clear WebView cache</string>
@@ -521,7 +535,9 @@
     <string name="search_slow_warning_title">Ожидание результатов</string>
     <string name="search_slow_warning_message">Ожидание ответа от сервера может занять много времени</string>
     <string name="action_bar_mailbox_list_title">Папки</string>
+
     <string name="require_manual_sync_message">Для этого аккаунта отключена фоновая синхронизация в роуминге</string>
+    <string name="Send_From_My">"Отправлено с моего "</string>
     <string name="multiple_new_message_notification_item"><b>%1$s</b>: %2$s</string>
     <string name="single_new_message_notification_big_text">"%1$s
 %2$s"</string>

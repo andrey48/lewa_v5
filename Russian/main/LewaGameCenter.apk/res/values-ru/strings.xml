@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
     <string name="game_center">Игровой центр</string>
     <string name="game_update">Обновление игр</string>
     <string name="app_download">раз</string>
     <string name="app_size">Размер: </string>
     <string name="app_source">Источник: </string>
     <string name="image_content">изображение</string>
+    <string name="app_version">Версия: </string>
     <string name="app_old_tip">Текущая версия: </string>
     <string name="app_new_tip">Новая версия: </string>
     <string name="app_size_tip">Размер: </string>
@@ -33,13 +35,16 @@
     <string name="message_open_app_fail">Не удалось открыть игру-_-!</string>
     <string name="noti_install_app_fail">Установка приложения не удалась, вначале рекомендуется удалить старую версию</string>
     <string name="noti_install_app_fail_invalid_apk">Установка не удалась, не получается проанализировать apk</string>
+    <string name="noti_install_app_fail_invalid_patch">Установка не удалась, не получается проанализировать apk-патч</string>
     <string name="noti_install_failed_container_error">Установка не удалась. Игра может быть установлена только на SD-карту</string>
     <string name="noti_install_app_fail_insufficient_storage">Установка не удалась, недостаточно свободного места на SD-карте</string>
     <string name="noti_install_app_fail_no_file">Установка не удалась, отсутствует apk</string>
+    <string name="noti_install_app_fail_app_is_top">Установка не удалась</string>
     <string name="noti_install_app_installing">Установка</string>
     <string name="noti_install_app_begin">Начало установки</string>
     <string name="noti_title_install_app_success">Установка прошла успешно</string>
     <string name="noti_install_app_success">Установка прошла успешно, нажмите для запуска</string>
+    <string name="noti_install_app_success_cannot_open">Установка прошла успешно</string>
     <string name="update_no_more">Версия Вашей игры самая последняя~</string>
     <string name="noti_noti_update_suffix">Игровой центр может обновить %1$s игр</string>
     <string name="noti_noti_update_suffix2">Возможно обновление</string>
@@ -65,9 +70,15 @@
     <string name="network_text">Подключение к сети не удалось</string>
     <string name="network_setting">Настройки сети</string>
     <string name="network_refresh">Обновить</string>
+    <string name="app_type_other">Другие</string>
+    <string name="search_hot">Новинки</string>
     <string name="message_pause_error">Ошибка паузы-_-!</string>
     <string name="message_resume_error">Ошибка возобновления-_-!</string>
+    <string name="app_release_time">Время релиза: </string>
+    <string name="app_category">Категория: </string>
     <string name="update_all">Обновить все</string>
+    <string name="update_all_tip">Обновляемые игры</string>
+    <string name="update_all_text">%1$s игры можно обновить</string>
     <string name="menu_setting">Настройки</string>
     <string name="setting_key_delete_apk">delete_apk</string>
     <string name="setting_key_update_noti">update_noti</string>
@@ -76,6 +87,10 @@
     <string name="setting_update_notification">Уведомление об обновлении</string>
     <string name="setting_auto_update">Автообновление</string>
     <string name="setting_auto_update_summary">Автообновление по Wi-Fi</string>
+    <string name="setting_check_update">Проверить обновление</string>
+    <string name="setting_check_update_summary">Текущая версия</string>
+
+    <string name="recommend_app_title">Рекомендуемые игры</string>
     <string name="drop_down_list_header_default_text">Нажмите для обновления…</string>
     <string name="drop_down_list_header_pull_text">Протяните для обновления…</string>
     <string name="drop_down_list_header_release_text">Отпустите для обновления…</string>
@@ -83,4 +98,7 @@
     <string name="drop_down_list_footer_default_text">Еще</string>
     <string name="drop_down_list_footer_loading_text">Загрузка…</string>
     <string name="drop_down_list_footer_no_more_text">Больше нет</string>
+    <string name="app_manage">Игровой менеджер</string>
+    <string name="search_tip">Нажмите для поиска</string>
+
 </resources>

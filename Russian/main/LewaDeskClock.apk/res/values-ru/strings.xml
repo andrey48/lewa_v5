@@ -5,6 +5,7 @@
     <string name="app_label">Часы</string>
     <string name="alarm_list_title">Будильник</string>
     <string name="add_alarm">Добавить будильник</string>
+    <string name="modify_alarm">Изменить будильник</string>
     <string name="menu_desk_clock">Настольные часы</string>
     <string name="menu_edit_alarm">Изменить настройки</string>
     <string name="delete_alarm">Удалить будильник</string>
@@ -37,7 +38,7 @@
     <string name="analog_gadget">Часы</string>
     <string name="settings">Настройки</string>
     <string name="alarm_in_silent_mode_title">Включать всегда</string>
-    <string name="alarm_in_silent_mode_summary">Подавать сигнал, даже если в режиме без звука</string>
+    <string name="alarm_in_silent_mode_summary">Подавать сигнал, даже если в режиме \"Без звука\"</string>
     <string name="snooze_duration_title">Интервал повтора сигнала</string>
     <string name="auto_silence_title">Автовыключение</string>
     <string name="auto_silence_summary">Сигнал отключится через %d мин.</string>
@@ -92,7 +93,7 @@
     <string name="start">Старт</string>
     <string name="pause">Пауза</string>
     <string name="reset">Сброс</string>
-    <string name="timer_continue">Продолжить</string>
+    <string name="timer_continue">Старт</string>
     <string name="lap">Круг</string>
     <string name="timer_hour">Час</string>
     <string name="timer_minute">Мин</string>
@@ -114,4 +115,31 @@
     <string name="menu_actionbar_selected_items">%s выбрано</string>
     <string name="menu_multichoice_select_all">Выбрать всё</string>
     <string name="menu_multichoice_clear_select">Очистить выбранные</string>
+    <string name="time_zh_str">Шанхай</string>
+    <string name="early_time">Меньше на %1$s ч.</string>
+    <string name="later_time">Больше на %1$s ч.</string>
+    <string name="lab">Круг</string>
+    <string name="left_text">Следующий будильник：</string>
+    <string name="alarm_day">дн.</string>
+    <string name="alarm_hour">час.</string>
+    <string name="alarm_minute">мин.</string>
+    <string name="alarm_second">сек.</string>
+    <string name="snooze_time_summary">10 минут (по умолчанию)</string>
+    <string name="snooze_time">Отложить</string>
+    <string name="snooze_minutes">" минут"</string>
+    <string name="one_count">только один раз</string>
+    <string name="monday_friday">понедельник-пятница</string>
+    <string name="repeat_count_custom">польз.</string>
+    <string name="current_time">Текущее время:</string>
+    <string name="set_timezone">Настройки</string>
+    <string name="please_select_one_more_citys">Выберите хотя бы один город</string>
+    <string name="turn_snooze">Отложить сигнал переворотом</string>
+    <string name="repeat_everyday">Каждый день</string>
+    <string name="repeat_none">Не повторять</string>
+    <string name="alarm_alert_snooze_until">Период установлен в %s</string>
+    <string name="voice_ui_title">Управление голосом</string>
+    <string name="voice_ui_content_text">Управление голосом старта будильника</string>
+    <string name="alarm_command_summary_format">"Вы можете сказать %1$s или %2$s 
+ Отложить или выключить сигнал."</string>
+    <string name="alarm_command_summary_format_land">Сказать %1$s или %2$s Отложить или выключить сигнал.</string>
 </resources>

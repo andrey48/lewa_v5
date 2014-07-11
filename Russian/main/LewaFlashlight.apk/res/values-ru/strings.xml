@@ -2,7 +2,7 @@
 <resources>
     <string name="flashDevice">/sys/class/leds/flashlight/brightness</string>
     <string name="app_name">Фонарик</string>
-    <string name="prompt">Нажмите и удерживайте клавишу ДОМОЙ для быстрого включения фанарика в режиме блокировки экрана</string>
+    <string name="prompt">В режиме блокировки удерживайте кнопку - ДОМОЙ</string>
     <string name="errorCameraOpenTitle">Ошибка фонарика</string>
-    <string name="errorCameraOpenMessage">"Не удается запустить функцию фанарика. Какое-то приложение использует интерфейс камеры"</string>
+    <string name="errorCameraOpenMessage">"Не удается активировать фонарик. Интерфейс камеры уже используется"</string>
 </resources>

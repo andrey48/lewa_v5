@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="calendar_storage">Память календаря</string>
+    <string name="calendar_storage">База данных календаря</string>
     <string name="upgrade_msg">Обновление базы данных календаря...</string>
     <string name="calendar_default_name">По умолчанию</string>
     <string name="calendar_info">Сведения о календаре</string>

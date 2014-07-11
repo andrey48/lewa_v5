@@ -19,7 +19,6 @@
         <item>30 мин</item>
     </string-array>
     <string-array name="battery_low_values">
-        <item>0</item>
         <item>1</item>
         <item>2</item>
         <item>3</item>
@@ -31,7 +30,6 @@
         <item>25</item>
     </string-array>
     <string-array name="battery_low_entries">
-        <item>0%</item>
         <item>1%</item>
         <item>2%</item>
         <item>3%</item>
@@ -43,7 +41,7 @@
         <item>25%</item>
     </string-array>
     <string-array name="sp_mode">
-        <item>Энергосбережение</item>
+        <item>Экономия энергии</item>
         <item>Режим сна</item>
     </string-array>
 </resources>

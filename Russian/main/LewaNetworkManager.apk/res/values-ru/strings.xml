@@ -29,7 +29,7 @@
     <string name="usage_exceed">Превышает</string>
     <string name="usage_remain">Осталось</string>
     <string name="usage_nocard">неизвестно</string>
-    <string name="usage_total">Всего использовано</string>
+    <string name="usage_total">Использовано</string>
     <string name="usage_plan">Лимит</string>
     <string name="usage_adjust">Оператор</string>
     <string name="usage_adjusting">Синхронизация</string>
@@ -70,8 +70,8 @@
     <string name="widget_today_usage">Сегодня</string>
     <string name="widget_exceed">Превышение</string>
     <string name="widget_remain">Еще</string>
-    <string name="widget_data_pack_warning">Установите тарифный план</string>
-    <string name="notify_data_pack_title">Предупреждение о достижении порога</string>
+    <string name="widget_data_pack_warning">Лимит не задан</string>
+    <string name="notify_data_pack_title">Предупреждение о лимите</string>
     <string name="notify_data_pack_summary">@string/widget_data_pack_warning</string>
     <string name="permlab_manageNetworkPolicy">Управление сетевой политикой</string>
     <string name="permdesc_manageNetworkPolicy">Разрешить приложению управлять сетевой политикой и определять правила</string>

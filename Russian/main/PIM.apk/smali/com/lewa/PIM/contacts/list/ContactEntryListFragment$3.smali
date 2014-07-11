@@ -24,14 +24,13 @@
 # direct methods
 .method constructor <init>(Lcom/lewa/PIM/contacts/list/ContactEntryListFragment;)V
     .registers 2
-    .parameter
 
     .prologue
     .line 433
-    .local p0, this:Lcom/lewa/PIM/contacts/list/ContactEntryListFragment$3;,"Lcom/lewa/PIM/contacts/list/ContactEntryListFragment.3;"
+    .local p0, "this":Lcom/lewa/PIM/contacts/list/ContactEntryListFragment$3;, "Lcom/lewa/PIM/contacts/list/ContactEntryListFragment.3;"
     iput-object p1, p0, Lcom/lewa/PIM/contacts/list/ContactEntryListFragment$3;->this$0:Lcom/lewa/PIM/contacts/list/ContactEntryListFragment;
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
 .end method
@@ -42,12 +41,12 @@
     .registers 14
 
     .prologue
-    .local p0, this:Lcom/lewa/PIM/contacts/list/ContactEntryListFragment$3;,"Lcom/lewa/PIM/contacts/list/ContactEntryListFragment.3;"
+    .local p0, "this":Lcom/lewa/PIM/contacts/list/ContactEntryListFragment$3;, "Lcom/lewa/PIM/contacts/list/ContactEntryListFragment.3;"
     const/16 v12, 0x80
 
-    const/16 v11, 0x042f
+    const/16 v11, 0x42f
 
-    const/16 v10, 0x0410
+    const/16 v10, 0x410
 
     const/4 v9, 0x1
 
@@ -78,12 +77,12 @@
 
     move-result-object v6
 
-    invoke-virtual {v6, v8}, Lcom/lewa/PIM/contacts/list/ContactEntryListAdapter;->getCursor(I)Landroid/database/Cursor;
+    invoke-virtual {v6, v8}, Lcom/android/common/widget/CompositeCursorAdapter;->getCursor(I)Landroid/database/Cursor;
 
     move-result-object v1
 
     .line 440
-    .local v1, cursor:Landroid/database/Cursor;
+    .local v1, "cursor":Landroid/database/Cursor;
     if-eqz v1, :cond_9d
 
     invoke-interface {v1}, Landroid/database/Cursor;->isClosed()Z
@@ -105,11 +104,11 @@
     const/4 v5, 0x0
 
     .line 445
-    .local v5, starredCnt:I
+    .local v5, "starredCnt":I
     const/4 v0, 0x0
 
     .line 446
-    .local v0, count:I
+    .local v0, "count":I
     iget-object v6, p0, Lcom/lewa/PIM/contacts/list/ContactEntryListFragment$3;->this$0:Lcom/lewa/PIM/contacts/list/ContactEntryListFragment;
 
     invoke-static {v6}, Lcom/lewa/PIM/contacts/list/ContactEntryListFragment;->access$200(Lcom/lewa/PIM/contacts/list/ContactEntryListFragment;)Lcom/lewa/PIM/contacts/list/ContactEntryListAdapter;
@@ -138,13 +137,13 @@
     invoke-direct {v3, v12}, Landroid/database/CharArrayBuffer;-><init>(I)V
 
     .line 452
-    .local v3, nameBuffer:Landroid/database/CharArrayBuffer;
+    .local v3, "nameBuffer":Landroid/database/CharArrayBuffer;
     new-instance v4, Landroid/database/CharArrayBuffer;
 
     invoke-direct {v4, v12}, Landroid/database/CharArrayBuffer;-><init>(I)V
 
     .line 454
-    .local v4, sortKeyBuffer:Landroid/database/CharArrayBuffer;
+    .local v4, "sortKeyBuffer":Landroid/database/CharArrayBuffer;
     if-ge v0, v5, :cond_a3
 
     const/16 v6, 0xc
@@ -166,7 +165,7 @@
     const/16 v2, 0x2605
 
     .line 457
-    .local v2, letter:C
+    .local v2, "letter":C
     add-int/lit8 v0, v0, 0x1
 
     .line 483
@@ -225,14 +224,14 @@
 
     move-result-object v6
 
-    invoke-virtual {v6}, Lcom/lewa/PIM/contacts/list/ContactEntryListAdapter;->notifyDataSetChanged()V
+    invoke-virtual {v6}, Lcom/android/common/widget/CompositeCursorAdapter;->notifyDataSetChanged()V
 
     .line 491
-    .end local v0           #count:I
-    .end local v2           #letter:C
-    .end local v3           #nameBuffer:Landroid/database/CharArrayBuffer;
-    .end local v4           #sortKeyBuffer:Landroid/database/CharArrayBuffer;
-    .end local v5           #starredCnt:I
+    .end local v0    # "count":I
+    .end local v2    # "letter":C
+    .end local v3    # "nameBuffer":Landroid/database/CharArrayBuffer;
+    .end local v4    # "sortKeyBuffer":Landroid/database/CharArrayBuffer;
+    .end local v5    # "starredCnt":I
     :cond_9d
     iget-object v6, p0, Lcom/lewa/PIM/contacts/list/ContactEntryListFragment$3;->this$0:Lcom/lewa/PIM/contacts/list/ContactEntryListFragment;
 
@@ -242,10 +241,10 @@
     return-void
 
     .line 460
-    .restart local v0       #count:I
-    .restart local v3       #nameBuffer:Landroid/database/CharArrayBuffer;
-    .restart local v4       #sortKeyBuffer:Landroid/database/CharArrayBuffer;
-    .restart local v5       #starredCnt:I
+    .restart local v0    # "count":I
+    .restart local v3    # "nameBuffer":Landroid/database/CharArrayBuffer;
+    .restart local v4    # "sortKeyBuffer":Landroid/database/CharArrayBuffer;
+    .restart local v5    # "starredCnt":I
     :cond_a3
     invoke-interface {v1, v9, v3}, Landroid/database/Cursor;->copyStringToBuffer(ILandroid/database/CharArrayBuffer;)V
 
@@ -254,7 +253,7 @@
 
     aget-char v6, v6, v8
 
-    const/16 v7, 0x0430
+    const/16 v7, 0x430
 
     if-lt v6, v7, :cond_d3
 
@@ -262,7 +261,7 @@
 
     aget-char v6, v6, v8
 
-    const/16 v7, 0x044f
+    const/16 v7, 0x44f
 
     if-gt v6, v7, :cond_d3
 
@@ -294,7 +293,7 @@
     move-result v2
 
     .line 479
-    .restart local v2       #letter:C
+    .restart local v2    # "letter":C
     if-lt v2, v10, :cond_d0
 
     if-le v2, v11, :cond_69
@@ -306,7 +305,7 @@
     goto :goto_69
 
     .line 463
-    .end local v2           #letter:C
+    .end local v2    # "letter":C
     :cond_d3
     iget-object v6, v3, Landroid/database/CharArrayBuffer;->data:[C
 

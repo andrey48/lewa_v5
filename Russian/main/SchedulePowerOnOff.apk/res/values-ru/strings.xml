@@ -21,4 +21,6 @@
     <string name="revert">Отклонить</string>
     <string name="schpwr_shutdown_message">Устройство выключится через %s секунд(ы)</string>
     <string name="schpwr_shutdown_message_second">Устройство выключится через %s секунду</string>
+    <string name="schedule_power_on">ВКЛ</string>
+    <string name="schedule_power_off">ВЫКЛ</string>
 </resources>

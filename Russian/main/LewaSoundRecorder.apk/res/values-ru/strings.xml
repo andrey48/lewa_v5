@@ -50,7 +50,7 @@
     <string name="play_title">Воспроизведение</string>
     <string name="time_zero">00:00</string>
     <string name="delete_selected">Выбрано %s</string>
-    <string name="duration_timer_format_with_hour" formatted="false">%02dh%02dm%02ds</string>
+    <string name="duration_timer_format_with_hour" formatted="false">%02dH%02dm%02ds</string>
     <string name="duration_timer_format_without_hour" formatted="false">%02dm%02ds</string>
     <string name="is_recording_can_not_use_play_function">Во время записи нельзя использовать воспроизведение</string>
     <string name="is_playing_can_not_use_record_function">Проигрывается аудиофайл, нельзя использовать запись</string>
@@ -59,4 +59,7 @@
     <string name="menu_multichoice_clear_select">Отменить все</string>
     <string name="recording_notitication">Запись</string>
     <string name="pause_record">Пауза</string>
+    <string name="line">" - "</string>
+    <string name="tv_prompt">Подсказка: Нажмите клавишу домой для проигрывания записи</string>
+    <string name="sounder_file">Запись файлов</string>
 </resources>

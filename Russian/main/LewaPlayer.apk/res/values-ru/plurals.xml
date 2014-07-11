@@ -2,7 +2,9 @@
 <resources>
     <plurals name="Nsongs">
         <item quantity="other">Песен: %d</item>
-        <item quantity="one">1 песня</item>
+    </plurals>
+    <plurals name="Nsongscomp">
+        <item quantity="other">%2$d из %1$d песен</item>
     </plurals>
     <plurals name="Nalbums">
         <item quantity="other">Альбомов: %d</item>

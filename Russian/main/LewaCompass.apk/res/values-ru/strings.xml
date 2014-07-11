@@ -9,5 +9,9 @@
     <string name="southwest">Юго-запад</string>
     <string name="west">Запад</string>
     <string name="northwest">Северо-запад</string>
-    <string name="accuracy_prompt">Вблизи магнитных помех встряхните телефон для калибровки компаса</string>
+    <string name="accuracy_prompt">Рядом могут быть магнитные помехи, встряхните устройство для калибровки компаса</string>
+    <string name="adjust">Калибровка</string>
+    <string name="adjust_tv">Рядом могут быть магнитные помехи, для калибровки компаса прокрутите устройство восьмеркой, как показано на рисунки и встряхните его</string>
+    <string name="adjust_success">Калибровка завершена</string>
+    <string name="adjust_compass">Калибровка компаса</string>
 </resources>

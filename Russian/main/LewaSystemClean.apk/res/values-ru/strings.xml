@@ -2,6 +2,7 @@
 <resources>
     <string name="app_name">Очистка памяти</string>
     <string name="menu_settings">Настройки</string>
+    <string name="clean_data">Очистка мусора</string>
     <string name="title_activity_main">MainActivity</string>
     <string name="calculate_sdcard">Проверка SD-карты</string>
     <string name="clean_sdcard">Очистка SD-карты</string>
@@ -19,6 +20,7 @@
     <string name="install_location_sd">%1$s(некоторые приложения не поддерживаются)</string>
     <string name="install_location_auto">На усмотрение системы</string>
     <string name="clear_data_title">Очистка мусора</string>
+    <string name="calculate_now">Определение</string>
     <string name="space_available">Доступно</string>
     <string name="space_used">Исп. места</string>
     <string name="category_application">Приложения</string>

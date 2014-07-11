@@ -5,4 +5,5 @@
     <string name="simlock_toolkit">Меню SIM</string>
     <string name="no_sim_card_inserted">Пожалуйста, вставьте SIM для запуска приложения</string>
     <string name="airplane_mode_on">Невозможно запустить приложение, пока включен режим полета</string>
+    <string name="lable_sim_not_ready">Меню SIM не готово или не поддерживается</string>
 </resources>

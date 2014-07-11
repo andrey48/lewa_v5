@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
     <string name="app_store">Lewa Маркет</string>
     <string name="app_update">Обновление прилож.</string>
     <string name="app_download">раз</string>
@@ -34,6 +35,7 @@
     <string name="message_open_app_fail">Не удалось открыть приложение-_-!</string>
     <string name="noti_install_app_fail">Установка приложения не удалась, вначале рекомендуется удалить старую версию</string>
     <string name="noti_install_app_fail_invalid_apk">Установка не удалась, не получается проанализировать apk</string>
+    <string name="noti_install_app_fail_invalid_patch">Установка не удалась, не получается проанализировать apk</string>
     <string name="noti_install_failed_container_error">Установка не удалась. Это приложение может быть установлено только на SD-карту</string>
     <string name="noti_install_app_fail_insufficient_storage">Установка не удалась, недостаточно свободного места на SD-карте</string>
     <string name="noti_install_app_fail_no_file">Установка не удалась, отсутствует apk</string>
@@ -42,6 +44,7 @@
     <string name="noti_install_app_begin">Начало установки</string>
     <string name="noti_title_install_app_success">Установка прошла успешно</string>
     <string name="noti_install_app_success">Установка прошла успешно, нажмите для запуска</string>
+    <string name="noti_install_app_success_cannot_open">Установка прошла успешно</string>
     <string name="update_no_more">Версия Вашего приложения самая последняя~</string>
     <string name="noti_noti_update_suffix">Lewa Маркет может обновить %1$s приложений</string>
     <string name="noti_noti_update_suffix2">Возможно обновление</string>
@@ -74,6 +77,8 @@
     <string name="app_release_time">Дата выпуска: </string>
     <string name="app_category">Категория: </string>
     <string name="update_all">Обновить все</string>
+    <string name="update_all_tip">Обновляемые приложения</string>
+    <string name="update_all_text">%1$s прил. можно обновить</string>
     <string name="menu_setting">Настройки</string>
     <string name="setting_key_delete_apk">delete_apk</string>
     <string name="setting_key_update_noti">update_noti</string>
@@ -82,6 +87,10 @@
     <string name="setting_update_notification">Уведомление о наличии обновления</string>
     <string name="setting_auto_update">Автообновление</string>
     <string name="setting_auto_update_summary">Автообновление по Wi-Fi</string>
+    <string name="setting_check_update">Проверить обновление</string>
+    <string name="setting_check_update_summary">Текущая версия</string>
+
+    <string name="recommend_app_title">Рекомендовать приложение</string>
     <string name="drop_down_list_header_default_text">Нажмите для обновления…</string>
     <string name="drop_down_list_header_pull_text">Протяните для обновления…</string>
     <string name="drop_down_list_header_release_text">Отпустите для обновления…</string>
@@ -89,4 +98,6 @@
     <string name="drop_down_list_footer_default_text">Еще</string>
     <string name="drop_down_list_footer_loading_text">Загрузка…</string>
     <string name="drop_down_list_footer_no_more_text">Больше нет</string>
+    <string name="app_manage">Управление приложениями</string>
+    <string name="search_tip">Нажмите для поиска</string>
 </resources>

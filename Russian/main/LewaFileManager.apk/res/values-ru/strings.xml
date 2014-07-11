@@ -224,6 +224,7 @@
     <string name="operation_paste">Вставить</string>
     <string name="operation_pasting">Вставка...</string>
     <string name="operation_refresh">Обновить</string>
+    <string name="operation_refresh_completed">Обновление завершено</string>
     <string name="operation_rename">Переименовать</string>
     <string name="operation_rename_message">Введите новое имя</string>
     <string name="operation_selectall">Выбрать все</string>
@@ -305,7 +306,8 @@
     <string name="sdcard">SD-карта</string>
     <string name="built_in_sdcard">Внутреннее хранилище</string>
     <string name="external_sdcard">SD-карта</string>
-    <string name="hint_findFiles">Искать все файлы</string>
+    <string name="hint_findFiles">Поиск все файлов</string>
+    <string name="file_search">Поиск файлов</string>
     <string name="category_all_apk">Все приложения</string>
     <string name="category_all_document">Все документы</string>
     <string name="category_all_music">Вся музыка</string>
@@ -314,7 +316,7 @@
     <string name="category_all_video">Все видео</string>
     <string name="theme_path">LEWA/theme</string>
     <string name="apk_installed">Установлено</string>
-    <string name="apk_uninstalled">Удалено</string>
+    <string name="apk_uninstalled">Не установлено</string>
     <string name="apk_installed_update">Обновлено</string>
     <string name="apk_version">Версия:</string>
     <string name="apk_installed_unknown">Неизвестный статус</string>
@@ -343,6 +345,7 @@
     <string name="usbotg_title">USB OTG</string>
     <string name="usbotg_name">USB OTG</string>
     <string name="sdcard_io_error">Ошибка SD-карты</string>
-    <string name="FileListDateFormat">yyyy/MM/dd</string>
+    <string name="FileListDateFormat">dd.MM.yyyy</string>
     <string name="file_move_failed">перемещение не удалось</string>
+    <string name="file_not_found">файл не найден</string>
 </resources>

@@ -78,6 +78,7 @@
     <string name="dialog_remember_commands_title">Резервное копирование команд</string>
     <string name="dialog_remember_commands_text1">Команды будут высланы через SMS на безопасный номер</string>
     <string name="dialog_remember_commands_text2">Команды отправлены на безопасный номер</string>
+    <string name="dialog_remember_commands_text3">Отправка команд не удалась</string>
     <string name="dialog_command_sent_title">Статус</string>
     <string name="dialog_command_sent_text">Успешно!</string>
     <string name="password_forget"><u>Забыли пароль?</u></string>

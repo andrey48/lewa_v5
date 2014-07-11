@@ -23,4 +23,5 @@
     <string name="give_up">Прервать</string>
     <string name="open_calendar_failed">Календарь недоступен</string>
     <string name="loading">Загрузка...</string>
+    <string name="not_support_multi_events">Файлы с множественными событиями не поддерживаются</string>
 </resources>
